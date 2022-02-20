@@ -53,12 +53,23 @@ header{
 
 .right{
   display: flex;
-  background: black;
   border-radius: 16px;
   padding: 12px 20px;
   height: 99%;
   margin-right: 10%;
   margin-top: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  color: #0d1116;
 }
 
 .content-container {
